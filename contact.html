@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function showMessage() {
+            alert("Your message has been sent!");
+        }
+    </script>
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<div class="container">
+
+<form onsubmit="showMessage()">
+    <label>Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" required><br><br>
+
+    <label>Favorite Aircraft:</label><br>
+    <input type="text"><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</div>
+
+<footer>
+    <p>We appreciate your feedback!</p>
+</footer>
+
+</body>
+</html>
